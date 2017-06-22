@@ -39,7 +39,7 @@ resources:
     flags:
       - deploy-ecs-basic
     seed:
-      versionName: 1
+      versionName: "v1.0.0"
 
   - name: deploy-ecs-cluster
     type: cluster
