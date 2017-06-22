@@ -22,6 +22,7 @@ jobs:
       - deploy-ecs-basic
     steps:
       - IN: deploy-ecs-basic-manifest
+      - IN: deploy-ecs-version
       - TASK: managed
  
   - name: deploy-ecs-basic-deploy
