@@ -24,7 +24,7 @@ jobs:
       - IN: deploy-ecs-basic-manifest
       - TASK: managed
  
- - name: deploy-ecs-basic-deploy
+  - name: deploy-ecs-basic-deploy
     type: deploy
     flags:
       - deploy-ecs-basic
