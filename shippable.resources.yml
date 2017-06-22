@@ -33,6 +33,13 @@ resources:
       - deploy-ecs-basic
     version:
       count: 1
+      
+  - name: deploy-ecs-version
+    type: version
+    flags:
+      - deploy-ecs-basic
+    seed:
+      versionName: 1
 
   - name: deploy-ecs-cluster
     type: cluster
